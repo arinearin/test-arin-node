@@ -13,6 +13,14 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+app.get('/iflove', (req, res) => {
+    res.render('iflove');
+});
+
+app.get('/ifdontlove', (req, res) => {
+    res.render('ifdontlove');
+});
+
 app.listen(port, () => {
     console.log(`runing server from arin on port ${port}`)
 })
